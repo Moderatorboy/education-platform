@@ -195,11 +195,23 @@ export const SAMPLE = {
             {
               id: 'ns_c8',
               name: 'FLUIDS',
-              photo: '/KINEMATICS.png',
-              lectures: [
-                { id: 'ns_l43', title: 'Kinematics | L-01 | Motion Basics', video: 'https://rumble.com/embed/v4', duration: '01:00:00', date: '23 Nov, 2025' },
-                { id: 'ns_l53', title: 'Kinematics | L-02 | Equations of Motion', video: 'https://rumble.com/embed/v5', duration: '01:00:00', date: '24 Nov, 2025' },
-                { id: 'ns_l63', title: 'Kinematics | L-03 | Projectile Motion', video: 'https://rumble.com/embed/v6', duration: '01:00:00', date: '25 Nov, 2025' }
+              photo: "/FLUIDS.png",
+  lectures: [
+    { id: "f1", title: "Fluids | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "10 Mar, 2026" },
+    { id: "f2", title: "Fluids | Lecture 02 | Pressure in Fluids", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "11 Mar, 2026" },
+    { id: "f3", title: "Fluids | Lecture 03 | Pascal’s Law", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "12 Mar, 2026" },
+    { id: "f4", title: "Fluids | Lecture 04 | Archimedes Principle", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "13 Mar, 2026" },
+    { id: "f5", title: "Fluids | Lecture 05 | Buoyancy", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "14 Mar, 2026" },
+    { id: "f6", title: "Fluids | Lecture 06 | Fluid Dynamics", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "15 Mar, 2026" },
+    { id: "f7", title: "Fluids | Lecture 07 | Equation of Continuity", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "16 Mar, 2026" },
+    { id: "f8", title: "Fluids | Lecture 08 | Bernoulli’s Theorem", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "17 Mar, 2026" },
+    { id: "f9", title: "Fluids | Lecture 09 | Applications of Bernoulli’s Theorem", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "18 Mar, 2026" },
+    { id: "f10", title: "Fluids | Lecture 10 | Viscosity", video: "https://rumble.com/embed/NS2_10", duration: "01:00:00", date: "19 Mar, 2026" },
+    { id: "f11", title: "Fluids | Lecture 11 | Poiseuille’s Law", video: "https://rumble.com/embed/NS2_11", duration: "01:00:00", date: "20 Mar, 2026" },
+    { id: "f12", title: "Fluids | Lecture 12 | Surface Tension", video: "https://rumble.com/embed/NS2_12", duration: "01:00:00", date: "21 Mar, 2026" },
+    { id: "f13", title: "Fluids | Lecture 13 | Capillarity", video: "https://rumble.com/embed/NS2_13", duration: "01:00:00", date: "22 Mar, 2026" },
+    { id: "f14", title: "Fluids | Lecture 14 | Practice Problems 1", video: "https://rumble.com/embed/NS2_14", duration: "01:00:00", date: "23 Mar, 2026" },
+    { id: "f15", title: "Fluids | Lecture 15 | Practice Problems 2", video: "https://rumble.com/embed/NS2_15", duration: "01:00:00", date: "24 Mar, 2026" }
               ]
             },
             {
