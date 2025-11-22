@@ -52,11 +52,25 @@ export default function ChapterVideosPage() {
       {activeTab === 'videos' && (
         <div className="space-y-4">
           {chapter.lectures.map((video, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveVideo(video)}
-              className="w-full text-left flex gap-4 items-center border rounded-lg p-3 bg-white dark:bg-slate-900 shadow hover:bg-gray-100 dark:hover:bg-slate-800"
-            >
+            <Link
+  key={index}
+  to={`/batch/${batchId}/subject/${subjectId}/chapter/${chapterId}/lecture/${video.id}`}
+  className="w-full text-left flex gap-4 items-center border rounded-lg p-3 bg-white dark:bg-slate-900 shadow hover:bg-gray-100 dark:hover:bg-slate-800"
+>
+  <div className="w-40 h-24 bg-gray-200 dark:bg-slate-800 overflow-hidden rounded">
+    <img
+      src={chapter.photo}
+      alt={video.title}
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="flex-1">
+    <h4 className="font-semibold text-base">{video.title}</h4>
+    <div className="text-sm text-gray-600 dark:text-gray-400">
+      Duration: {video.duration} • Date: {video.date}
+    </div>
+  </div>
+</Link>
               <div className="w-40 h-24 bg-gray-200 dark:bg-slate-800 overflow-hidden rounded">
                 <img
                   src={chapter.photo}
