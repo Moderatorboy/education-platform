@@ -96,6 +96,60 @@ export const SAMPLE = {
       title: "Kinematics Quiz",
       questions: [
         { q: "Define displacement.", options: ["Scalar", "Vector", "Constant"], ans: 1 }
+        }
+      ]
+    },
+
+    // 👇 NEW CHAPTER ADDED
+    {
+      id: "c3",
+  name: "Laws of Motion",
+  photo: "/LAWSMOTION.png",
+  lectures: [
+    { id: "l1", title: "Laws Of Motion | L-01 | Types Of Force", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "03 Jan, 2026" },
+    { id: "l2", title: "Laws Of Motion | L-02 | Normal Force", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "04 Jan, 2026" },
+    { id: "l3", title: "Laws Of Motion | L-03 | Normal Force", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "05 Jan, 2026" },
+    { id: "l4", title: "Laws Of Motion | L-04 | Tension Force, Uniform Rod", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "06 Jan, 2026" },
+    { id: "l5", title: "Laws Of Motion | L-05 | Atwood Machine", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "07 Jan, 2026" },
+    { id: "l6", title: "Laws Of Motion | L-06 | Constraint Relation", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "08 Jan, 2026" },
+    { id: "l7", title: "Laws Of Motion | L-07 | Questions", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "09 Jan, 2026" },
+    { id: "l8", title: "Laws Of Motion | L-08 | Questions", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "10 Jan, 2026" },
+    { id: "l9", title: "Laws Of Motion | L-09 | Short Cut Of Constraint Relation", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "11 Jan, 2026" },
+    { id: "l10", title: "Laws Of Motion | L-10 | Questions", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "12 Jan, 2026" },
+    { id: "l11", title: "Laws Of Motion | L-11 | Monkey Problem", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "13 Jan, 2026" },
+    { id: "l12", title: "Laws Of Motion | L-12 | Wedges Problem", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "14 Jan, 2026" },
+    { id: "l13", title: "Laws Of Motion | L-13 | Wedges Problem", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "15 Jan, 2026" },
+    { id: "l14", title: "Laws Of Motion | L-14 | Chain Problem", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "16 Jan, 2026" },
+    { id: "l15", title: "Laws Of Motion | L-15 | Questions", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "17 Jan, 2026" },
+    { id: "l16", title: "Laws Of Motion | L-16 | Springs", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "18 Jan, 2026" },
+    { id: "l17", title: "Laws Of Motion | L-17 | Questions", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "19 Jan, 2026" },
+    { id: "l18", title: "Laws Of Motion | L-18 | Pseudo Force", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "20 Jan, 2026" },
+    { id: "l19", title: "Laws Of Motion | L-19 | Lift, Wedges Problems", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "21 Jan, 2026" },
+    { id: "l20", title: "Laws Of Motion | L-20 | Friction (Basics)", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "22 Jan, 2026" },
+    { id: "l21", title: "Laws Of Motion | L-21 | Contact Force", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "23 Jan, 2026" },
+    { id: "l22", title: "Laws Of Motion | L-22", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "24 Jan, 2026" },
+    { id: "l23", title: "Laws Of Motion | L-23", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "25 Jan, 2026" },
+    { id: "l24", title: "Laws Of Motion | L-24", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "26 Jan, 2026" },
+    { id: "l25", title: "Laws Of Motion | L-25", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "27 Jan, 2026" }
+  ],
+  notes: [
+    { id: "n3", title: "Laws of Motion Notes", file: "https://example.com/notes_lawsmotion.pdf" }
+  ],
+  dpp: [
+    { id: "d3", title: "Laws of Motion DPP", file: "https://example.com/dpp_lawsmotion.pdf" }
+  ],
+  sheets: [
+    { id: "s3", title: "Laws of Motion Sheet", link: "https://example.com/sheet_lawsmotion.pdf" }
+  ],
+  dppVideos: [
+    { id: "dv3", title: "Laws of Motion DPP Video", link: "https://odysee.com/$/embed/abc123" }
+  ],
+  quizzes: [
+    {
+      id: "q3",
+      title: "Laws of Motion Quiz",
+      questions: [
+        { q: "State Newton's Second Law.", options: ["F=ma", "F=mv", "F=mg"], ans: 0 }
           ]
         }
       ]
