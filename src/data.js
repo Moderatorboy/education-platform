@@ -139,11 +139,26 @@ export const SAMPLE = {
             {
               id: 'ns_c6',
               name: 'CENTRE OF MASS',
-              photo: '/KINEMATICS.png',
-              lectures: [
-                { id: 'ns_l42', title: 'Kinematics | L-01 | Motion Basics', video: 'https://rumble.com/embed/v4', duration: '01:00:00', date: '23 Nov, 2025' },
-                { id: 'ns_l52', title: 'Kinematics | L-02 | Equations of Motion', video: 'https://rumble.com/embed/v5', duration: '01:00:00', date: '24 Nov, 2025' },
-                { id: 'ns_l62', title: 'Kinematics | L-03 | Projectile Motion', video: 'https://rumble.com/embed/v6', duration: '01:00:00', date: '25 Nov, 2025' }
+              photo: "/CENTREOFMASS.png",
+  lectures: [
+    { id: "cm1", title: "Centre of Mass | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "27 Jan, 2026" },
+    { id: "cm2", title: "Centre of Mass | Lecture 02 | Definition & Formula", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "28 Jan, 2026" },
+    { id: "cm3", title: "Centre of Mass | Lecture 03 | Centre of Mass of System", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "29 Jan, 2026" },
+    { id: "cm4", title: "Centre of Mass | Lecture 04 | Centre of Mass of Rigid Body", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "30 Jan, 2026" },
+    { id: "cm5", title: "Centre of Mass | Lecture 05 | Centre of Mass of Uniform Rod", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "31 Jan, 2026" },
+    { id: "cm6", title: "Centre of Mass | Lecture 06 | Centre of Mass of Triangle", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "01 Feb, 2026" },
+    { id: "cm7", title: "Centre of Mass | Lecture 07 | Centre of Mass of Semicircular Arc", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "02 Feb, 2026" },
+    { id: "cm8", title: "Centre of Mass | Lecture 08 | Centre of Mass of Hemisphere", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "03 Feb, 2026" },
+    { id: "cm9", title: "Centre of Mass | Lecture 09 | Centre of Mass of Composite Bodies", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "04 Feb, 2026" },
+    { id: "cm10", title: "Centre of Mass | Lecture 10 | Motion of Centre of Mass", video: "https://rumble.com/embed/NS2_10", duration: "01:00:00", date: "05 Feb, 2026" },
+    { id: "cm11", title: "Centre of Mass | Lecture 11 | Linear Momentum & COM", video: "https://rumble.com/embed/NS2_11", duration: "01:00:00", date: "06 Feb, 2026" },
+    { id: "cm12", title: "Centre of Mass | Lecture 12 | Rocket Propulsion", video: "https://rumble.com/embed/NS2_12", duration: "01:00:00", date: "07 Feb, 2026" },
+    { id: "cm13", title: "Centre of Mass | Lecture 13 | Practice Problems 1", video: "https://rumble.com/embed/NS2_13", duration: "01:00:00", date: "08 Feb, 2026" },
+    { id: "cm14", title: "Centre of Mass | Lecture 14 | Practice Problems 2", video: "https://rumble.com/embed/NS2_14", duration: "01:00:00", date: "09 Feb, 2026" },
+    { id: "cm15", title: "Centre of Mass | Lecture 15 | Practice Problems 3", video: "https://rumble.com/embed/NS2_15", duration: "01:00:00", date: "10 Feb, 2026" },
+    { id: "cm16", title: "Centre of Mass | Lecture 16 | Advanced Concepts", video: "https://rumble.com/embed/NS2_16", duration: "01:00:00", date: "11 Feb, 2026" },
+    { id: "cm17", title: "Centre of Mass | Lecture 17 | Mixed Questions", video: "https://rumble.com/embed/NS2_17", duration: "01:00:00", date: "12 Feb, 2026" },
+    { id: "cm18", title: "Centre of Mass | Lecture 18 | Final Revision", video: "https://rumble.com/embed/NS2_18", duration: "01:00:00", date: "13 Feb, 2026" }
               ]
             },
             {
