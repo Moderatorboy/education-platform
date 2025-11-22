@@ -282,7 +282,7 @@ export const SAMPLE = {
             {
               id: 'jp_c1',
               name: 'Atomic Structure',
-              photo: '/ATOMIC.png',
+              photo: '/poc.jpg',
               lectures: [
                 { id: 'jp_l1', title: 'Atomic Structure | L-01 | Basics', video: 'https://rumble.com/embed/jp1', duration: '00:45:00', date: '29 Nov, 2025' }
               ]
