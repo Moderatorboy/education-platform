@@ -46,7 +46,7 @@ export default function ChapterPage() {
             key={tab.key}
             onClick={() => setActiveTab(tab.key)}
             className={`px-4 py-2 rounded border ${
-              activeTab === tab.key ? 'bg-blue-600 text-white' : 'bg-white dark:bg-slate-900'
+              activeTab === tab.key ? 'bg-blue-600 text-white shadow-lg scale-105 transition' : 'bg-white dark:bg-slate-900'
             }`}
           >
             {tab.label}
@@ -65,10 +65,10 @@ export default function ChapterPage() {
             >
               <div className="w-40 h-24 bg-gray-200 dark:bg-slate-800 overflow-hidden rounded">
                 <img
-                  src={chapter.photo}
-                  alt={video.title}
-                  className="w-full h-full object-cover"
-                />
+  src={video.photo || chapter.photo}
+  alt={video.title}
+  className="w-full h-full object-cover"
+/>
               </div>
               <div className="flex-1">
                 <h4 className="font-semibold text-base">{video.title}</h4>
