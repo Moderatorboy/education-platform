@@ -32,7 +32,7 @@ export default function ChapterPage(){
             {chapter.lectures.map(l=> (
               <Link key={l.id} to={`/batch/${batchId}/subject/${subjectId}/chapter/${chapterId}/lecture/${l.id}`} className="flex items-center gap-3 border p-3 rounded">
                 <div className="w-24 h-16 bg-gray-200 dark:bg-slate-800 flex items-center justify-center">
-                  <img src={chapter.photo} alt={l.title} className="object-cover w-full h-full"/>
+                  <img src={chapter.photo} alt={l.title} className="object-contain w-full h-full"/>
                 </div>
                 <div>
                   <div className="font-medium">{l.title}</div>
