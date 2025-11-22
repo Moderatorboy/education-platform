@@ -17,9 +17,13 @@ export default function SubjectPage(){
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {subject.chapters.map(c=> (
           <Link key={c.id} to={`/batch/${batchId}/subject/${subjectId}/chapter/${c.id}`} className="block border rounded-lg overflow-hidden">
-            <div className="h-36 bg-gray-100 dark:bg-slate-800 flex items-center justify-center">
-              {c.photo ? <img src={c.photo} alt={c.name} className="w-full h-full object-cover"/> : c.name}
-            </div>
+            <div className="aspect-video bg-gray-100 dark:bg-slate-800">
+  {c.photo ? (
+    <img src={c.photo} alt={c.name} className="w-full h-full object-contain"/>
+  ) : (
+    <span className="text-center">{c.name}</span>
+  )}
+</div>
             <div className="p-3">
               <h3 className="font-bold">{c.name}</h3>
             </div>
