@@ -9,20 +9,27 @@ export const SAMPLE = {
           id: 's1',
           name: 'PHYSICS (NS SIR)',
           photo: '/NSSIR.jpg',
-          chapters: [
-            {
-              id: 'c1',
-              name: 'CO-ORDINATE SYSTEM & VECTOR',
-              photo: '/VECTOR.png',
-              lectures: [
-                {
-                  id: 'l1',
-                  title: 'Coordinate Systems And Vectors | Lecture 01 | Orientation',
-                  video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq',
-                  duration: '01:23:45',
-                  date: '20 Nov, 2025'
-                }
-              ],
+      lectures: [
+        { id: "p1", title: "Coordinate Systems And Vectors | L-01 | Orientation", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "20 Nov, 2025" },
+        { id: "p2", title: "Coordinate Systems And Vectors | L-02 | Vector", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "21 Nov, 2025" },
+        { id: "p3", title: "Coordinate Systems And Vectors | L-03 | Parallelogram Law", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "22 Nov, 2025" },
+        { id: "p4", title: "Coordinate Systems And Vectors | L-04 | Types Of Vectors", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "23 Nov, 2025" },
+        { id: "p5", title: "Coordinate Systems And Vectors | L-05 | Scalar Product (or) Dot Product", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "24 Nov, 2025" },
+        { id: "p6", title: "Coordinate Systems And Vectors | L-06 | Direction, Projection Of Vector", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "25 Nov, 2025" },
+        { id: "p7", title: "Coordinate Systems And Vectors | L-07 | Lamis Theorem", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "26 Nov, 2025" },
+        { id: "p8", title: "Coordinate Systems And Vectors | L-08 | Vector Product", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "27 Nov, 2025" },
+        { id: "p9", title: "Coordinate Systems And Vectors | L-09 | Application Of Vector Product", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "28 Nov, 2025" },
+        { id: "p10", title: "Coordinate Systems And Vectors | L-10 | Questions Practice", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "29 Nov, 2025" },
+        { id: "p11", title: "Coordinate Systems And Vectors | L-11 | Straight Line, Circle", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "30 Nov, 2025" },
+        { id: "p12", title: "Coordinate Systems And Vectors | L-12 | Spiral, Helix, Differentiation", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "01 Dec, 2025" },
+        { id: "p13", title: "Coordinate Systems And Vectors | L-13 | Tangent, Normal, Chain Rule", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "02 Dec, 2025" },
+        { id: "p14", title: "Coordinate Systems And Vectors | L-14 | Concept Of Maxima & Minima, Radius Of Curvature", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "03 Dec, 2025" },
+        { id: "p15", title: "Coordinate Systems And Vectors | L-15 | Rolles Theorem", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "04 Dec, 2025" },
+        { id: "p16", title: "Coordinate Systems And Vectors | L-16 | Integration", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "05 Dec, 2025" },
+        { id: "p17", title: "Coordinate Systems And Vectors | L-17 | Volume Of Surface, Sphere", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "06 Dec, 2025" },
+        { id: "p18", title: "Coordinate Systems And Vectors | L-18 | Cone , Mass Density, Circle, Disc", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "07 Dec, 2025" },
+        { id: "p19", title: "Coordinate Systems And Vectors | L-19 | Semi Circular Disc, Polar Coordinate", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "08 Dec, 2025" }
+      ],
               notes: [{ id: 'n1', title: 'Algebra Notes', file: '/notes/algebra.pdf' }],
               dpp: [{ id: 'd1', title: 'Algebra DPP', file: '/dpp/algebra.pdf' }],
               quizzes: [
