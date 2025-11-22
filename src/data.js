@@ -8,7 +8,7 @@ export const SAMPLE = {
         {
           id: 's1',
           name: 'PHYSICS (NS SIR)',
-          photo: '/NSSIR.jpg',
+          photo: '/NSSIR.png',
           chapters: [
             {
               id: 'c1',
