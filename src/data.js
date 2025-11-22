@@ -8,12 +8,12 @@ export const SAMPLE = {
         {
           id: 's1',
           name: 'PHYSICS (NS SIR)',
-          photo: '/NSSIR.png',
+          photo: '/NSSIR.jpg',
           chapters: [
             {
               id: 'c1',
               name: 'CO-ORDINATE SYSTEM & VECTOR',
-              photo: '/VECTOR.jpg',
+              photo: '/VECTOR.png',
               lectures: [
                 { id: 'l1', title: 'Linear Equations', video: 'https://www.youtube.com/embed/ysz5S6PUM-U' },
                 { id: 'l2', title: 'Quadratic Equations', video: 'https://www.youtube.com/embed/dQw4w9WgXcQ' }
