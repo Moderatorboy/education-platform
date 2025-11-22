@@ -46,9 +46,9 @@ export default function LecturePage() {
         <div className="md:col-span-2">
           <div className="aspect-video bg-black rounded overflow-hidden">
             <iframe
-              src={lecture.video.includes('?') 
-  ? lecture.video + '&autoplay=1' 
-  : lecture.video + '?autoplay=1'}
+              src={lecture.video?.includes('?') 
+                ? lecture.video + '&autoplay=1' 
+                : lecture.video + '?autoplay=1'}
               title={lecture.title}
               allow="autoplay; encrypted-media"
               allowFullScreen
@@ -77,7 +77,7 @@ export default function LecturePage() {
           <ul className="space-y-2 text-sm">
             <li>
               <strong>Notes:</strong>{' '}
-              {chapter.notes[0]?.file ? (
+              {chapter?.notes?.[0]?.file ? (
                 <a href={chapter.notes[0].file} target="_blank" rel="noopener noreferrer" className="underline text-blue-600">
                   {chapter.notes[0].title}
                 </a>
@@ -87,7 +87,7 @@ export default function LecturePage() {
             </li>
             <li>
               <strong>DPP:</strong>{' '}
-              {chapter.dpp[0]?.file ? (
+              {chapter?.dpp?.[0]?.file ? (
                 <a href={chapter.dpp[0].file} target="_blank" rel="noopener noreferrer" className="underline text-blue-600">
                   {chapter.dpp[0].title}
                 </a>
@@ -97,7 +97,7 @@ export default function LecturePage() {
             </li>
             <li>
               <strong>Quiz:</strong>{' '}
-              {chapter.quizzes?.length > 0 ? (
+              {chapter?.quizzes?.length ? (
                 <Link to="#" className="underline text-blue-600">Start Quiz</Link>
               ) : (
                 'Not available'
