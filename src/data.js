@@ -15,7 +15,7 @@ export const SAMPLE = {
               name: 'CO-ORDINATE SYSTEM & VECTOR',
               photo: '/VECTOR.png',
               lectures: [
-                { id: 'l1', title: 'Linear Equations', video: 'https://www.youtube.com/embed/ysz5S6PUM-U' },
+                { id: 'l1', title: 'Linear Equations', video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq' },
                 { id: 'l2', title: 'Quadratic Equations', video: 'https://www.youtube.com/embed/dQw4w9WgXcQ' }
               ],
               notes: [{id:'n1', title:'Algebra Notes', file:'/notes/algebra.pdf'}],
