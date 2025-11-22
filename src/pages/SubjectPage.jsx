@@ -25,7 +25,7 @@ export default function SubjectPage(){
   )}
 </div>
             <div className="p-3">
-              <h3 className="font-bold">{c.name}</h3>
+              <h3 className="font-bold text-center">{c.name}</h3>
             </div>
           </Link>
         ))}
