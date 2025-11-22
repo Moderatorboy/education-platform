@@ -15,12 +15,36 @@ export const SAMPLE = {
               name: 'CO-ORDINATE SYSTEM & VECTOR',
               photo: '/VECTOR.png',
               lectures: [
-                { id: 'l1', title: 'Coordinate Systems And Vectors | Leacture 01 | Orientation', video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq' },
-                { id: 'l2', title: 'Coordinate Systems And Vectors | Leacture 02 | Vector (Basics)', video: 'https://rumble.com/embed/v6zur44/?pub=4no3cq' }
+                {
+                  id: 'l1',
+                  title: 'Coordinate Systems And Vectors | Lecture 01 | Orientation',
+                  video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq',
+                  duration: '01:23:45',
+                  date: '20 Nov, 2025'
+                },
+                {
+                  id: 'l2',
+                  title: 'Coordinate Systems And Vectors | Lecture 02 | Vector (Basics)',
+                  video: 'https://rumble.com/embed/v6zur44/?pub=4no3cq',
+                  duration: '01:15:30',
+                  date: '21 Nov, 2025'
+                }
               ],
-              notes: [{id:'n1', title:'Algebra Notes', file:'/notes/algebra.pdf'}],
-              dpp: [{id:'d1', title:'Algebra DPP', file:'/dpp/algebra.pdf'}],
-              quizzes: [{id:'q1', title:'Algebra Quiz', questions: [{q:'2+2?', options:['3','4','5'], ans:1}] }]
+              notes: [
+                { id: 'n1', title: 'Algebra Notes', file: '/notes/algebra.pdf' }
+              ],
+              dpp: [
+                { id: 'd1', title: 'Algebra DPP', file: '/dpp/algebra.pdf' }
+              ],
+              quizzes: [
+                {
+                  id: 'q1',
+                  title: 'Algebra Quiz',
+                  questions: [
+                    { q: '2+2?', options: ['3', '4', '5'], ans: 1 }
+                  ]
+                }
+              ]
             }
           ]
         }
