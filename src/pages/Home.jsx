@@ -14,7 +14,7 @@ function BatchCard({b}){
  : b.name}
       </div>
       <div className="p-3">
-        <h3 className="font-bold">{b.name}</h3>
+        <h3 className="font-bold text-center">{b.name}</h3>
       </div>
     </Link>
   )
