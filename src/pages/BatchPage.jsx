@@ -17,13 +17,7 @@ export default function BatchPage(){
         {batch.subjects.map(s=> (
           <Link key={s.id} to={`/batch/${batchId}/subject/${s.id}`} className="block border rounded-lg overflow-hidden">
             <div className="h-36 bg-gray-100 dark:bg-slate-800 flex items-center justify-center">
-              {s.photo ? (
-  <img
-    src={s.photo}
-    alt={s.name}
-    className="max-h-full max-w-full object-contain"
-  />
-) : s.name}
+              {s.photo ? <img src={s.photo} alt={s.name} className="w-full h-auto object-contain"/> : s.name}
             </div>
             <div className="p-3 bg-white dark:bg-slate-900">
               <h3 className="font-bold">{s.name}</h3>
