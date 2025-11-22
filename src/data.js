@@ -103,11 +103,15 @@ export const SAMPLE = {
             {
               id: 'ns_c4',
               name: 'CIRCULAR MOTION',
-              photo: '/KINEMATICS.png',
-              lectures: [
-                { id: 'ns_l41', title: 'Kinematics | L-01 | Motion Basics', video: 'https://rumble.com/embed/v4', duration: '01:00:00', date: '23 Nov, 2025' },
-                { id: 'ns_l51', title: 'Kinematics | L-02 | Equations of Motion', video: 'https://rumble.com/embed/v5', duration: '01:00:00', date: '24 Nov, 2025' },
-                { id: 'ns_l61', title: 'Kinematics | L-03 | Projectile Motion', video: 'https://rumble.com/embed/v6', duration: '01:00:00', date: '25 Nov, 2025' }
+              photo: "/CIRCULAR.png",
+  lectures: [
+    { id: "cm1", title: "Circular Motion | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "05 Jan, 2026" },
+    { id: "cm2", title: "Circular Motion | Lecture 02 | Centripetal Force", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "06 Jan, 2026" },
+    { id: "cm3", title: "Circular Motion | Lecture 03 | Angular Velocity", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "07 Jan, 2026" },
+    { id: "cm4", title: "Circular Motion | Lecture 04 | Banking of Roads", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "08 Jan, 2026" },
+    { id: "cm5", title: "Circular Motion | Lecture 05 | Conical Pendulum", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "09 Jan, 2026" },
+    { id: "cm6", title: "Circular Motion | Lecture 06 | Vertical Circle", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "10 Jan, 2026" },
+    { id: "cm7", title: "Circular Motion | Lecture 07 | Practice Problems", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "11 Jan, 2026" }
               ]
             },
             {
