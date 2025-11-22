@@ -26,7 +26,7 @@ export default function ChapterPage() {
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <button onClick={() => navigate(-1)} className="px-3 py-2 border rounded">Back To Chapters</button>
-        <h2 className="text-xl font-bold text-center">{chapter.name}</h2>
+        <h2 className="font-bold text-center">{chapter.name}</h2>
       </div>
 
       {/* Tabs */}
