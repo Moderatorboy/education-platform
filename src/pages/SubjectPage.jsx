@@ -24,8 +24,9 @@ export default function SubjectPage(){
     <span className="text-center">{c.name}</span>
   )}
 </div>
-            <div className="p-3">
-              <h3 className="font-bold text-center">{c.name}</h3>
+            <div className="py-3 text-center">
+  <h3 className="text-lg font-bold text-slate-800 dark:text-white">{c.name}</h3>
+</div>
             </div>
           </Link>
         ))}
