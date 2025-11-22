@@ -30,15 +30,15 @@ export default function BatchPage() {
             className="block border rounded-lg overflow-hidden"
           >
             {/* Image container */}
-            <div className="h-36 bg-gray-100 dark:bg-slate-800 flex items-center justify-center">
-              {s.photo ? (
-                <img
-                  src={s.photo}
-                  alt={s.name}
-                  className="w-full h-full object-contain"
-                />
-              ) : null}
-            </div>
+            <div className="aspect-video bg-gray-100 dark:bg-slate-800">
+  {s.photo ? (
+    <img
+      src={s.photo}
+      alt={s.name}
+      className="w-full h-full object-cover"
+    />
+  ) : null}
+</div>
 
             {/* Text container */}
             <div className="p-3 bg-white dark:bg-slate-900">
