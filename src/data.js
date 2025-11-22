@@ -91,15 +91,14 @@ export const SAMPLE = {
     { id: "dv2", title: "Kinematics DPP Video", link: "https://odysee.com/$/embed/abc123" }
   ],
   quizzes: [
-    {
-      id: "q2",
-      title: "Kinematics Quiz",
-      questions: [
-        { q: "Define displacement.", options: ["Scalar", "Vector", "Constant"], ans: 1 }
-        }
-      ]
-    },
-
+  {
+    id: "q2",
+    title: "Kinematics Quiz",
+    questions: [
+      { q: "Define displacement.", options: ["Scalar", "Vector", "Constant"], ans: 1 }
+    ]
+  }
+],
     // 👇 NEW CHAPTER ADDED
     {
       id: "c3",
