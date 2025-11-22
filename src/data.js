@@ -7,8 +7,13 @@ export const SAMPLE = {
       subjects: [
         {
           id: 's1',
-          name: 'PHYSICS (NS SIR)',
-          photo: '/NSSIR.jpg',
+  name: 'PHYSICS (NS SIR)',
+  photo: '/NSSIR.jpg',
+  chapters: [
+    {
+      id: 'c1',
+      name: 'CO-ORDINATE SYSTEM & VECTOR',
+      photo: '/VECTOR.png',
       lectures: [
         { id: "p1", title: "Coordinate Systems And Vectors | L-01 | Orientation", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "20 Nov, 2025" },
         { id: "p2", title: "Coordinate Systems And Vectors | L-02 | Vector", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "21 Nov, 2025" },
@@ -30,13 +35,13 @@ export const SAMPLE = {
         { id: "p18", title: "Coordinate Systems And Vectors | L-18 | Cone , Mass Density, Circle, Disc", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "07 Dec, 2025" },
         { id: "p19", title: "Coordinate Systems And Vectors | L-19 | Semi Circular Disc, Polar Coordinate", video: "https://rumble.com/embed/v4i7lnc/?pub=4", duration: "01:00:00", date: "08 Dec, 2025" }
       ],
-              notes: [{ id: 'n1', title: 'Algebra Notes', file: '/notes/algebra.pdf' }],
-              dpp: [{ id: 'd1', title: 'Algebra DPP', file: '/dpp/algebra.pdf' }],
-              quizzes: [
-                {
-                  id: 'q1',
-                  title: 'Algebra Quiz',
-                  questions: [{ q: '2+2?', options: ['3', '4', '5'], ans: 1 }]
+      notes: [{ id: 'n1', title: 'Algebra Notes', file: '/notes/algebra.pdf' }],
+      dpp: [{ id: 'd1', title: 'Algebra DPP', file: '/dpp/algebra.pdf' }],
+      quizzes: [
+        {
+          id: 'q1',
+          title: 'Algebra Quiz',
+          questions: [{ q: '2+2?', options: ['3', '4', '5'], ans: 1 }]
                 }
               ]
             }
