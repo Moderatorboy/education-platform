@@ -39,18 +39,18 @@ export default function ChapterPage() {
         </h2>
       </div>
 
-      {/* Horizontal Resource Sections */}
+      {/* Vertical Resource Sections */}
       <div className="space-y-8">
         {resourceSections.map(section => (
           section.items?.length > 0 && (
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-2">{section.title}</h3>
-              <div className="flex overflow-x-auto gap-4 pb-2">
+              <div className="grid grid-cols-1 gap-4">
                 {section.items.map((item, index) => (
                   <Link
                     key={index}
                     to={item.link || '#'}
-                    className="min-w-[200px] border rounded-lg p-3 bg-white dark:bg-slate-900 shadow"
+                    className="border rounded-lg p-3 bg-white dark:bg-slate-900 shadow"
                   >
                     <h4 className="font-bold text-sm mb-1">{item.title}</h4>
                     {item.thumbnail && (
