@@ -164,11 +164,32 @@ export const SAMPLE = {
             {
               id: 'ns_c7',
               name: 'ROTATIONAL MOTION',
-              photo: '/LAWSMOTION.png',
-              lectures: [
-                { id: 'ns_l72', title: 'Laws of Motion | L-01 | Force Basics', video: 'https://rumble.com/embed/v7', duration: '01:00:00', date: '26 Nov, 2025' },
-                { id: 'ns_l82', title: 'Laws of Motion | L-02 | Newton’s Laws', video: 'https://rumble.com/embed/v8', duration: '01:00:00', date: '27 Nov, 2025' },
-                { id: 'ns_l92', title: 'Laws of Motion | L-03 | Friction', video: 'https://rumble.com/embed/v9', duration: '01:00:00', date: '28 Nov, 2025' }
+              photo: "/ROTATIONAL.png",
+  lectures: [
+    { id: "rm1", title: "Rotational Motion | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "14 Feb, 2026" },
+    { id: "rm2", title: "Rotational Motion | Lecture 02 | Angular Variables", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "15 Feb, 2026" },
+    { id: "rm3", title: "Rotational Motion | Lecture 03 | Torque & Angular Momentum", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "16 Feb, 2026" },
+    { id: "rm4", title: "Rotational Motion | Lecture 04 | Moment of Inertia", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "17 Feb, 2026" },
+    { id: "rm5", title: "Rotational Motion | Lecture 05 | Parallel & Perpendicular Axis Theorem", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "18 Feb, 2026" },
+    { id: "rm6", title: "Rotational Motion | Lecture 06 | Rolling Motion", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "19 Feb, 2026" },
+    { id: "rm7", title: "Rotational Motion | Lecture 07 | Work-Energy in Rotation", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "20 Feb, 2026" },
+    { id: "rm8", title: "Rotational Motion | Lecture 08 | Angular Impulse", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "21 Feb, 2026" },
+    { id: "rm9", title: "Rotational Motion | Lecture 09 | Conservation of Angular Momentum", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "22 Feb, 2026" },
+    { id: "rm10", title: "Rotational Motion | Lecture 10 | Applications", video: "https://rumble.com/embed/NS2_10", duration: "01:00:00", date: "23 Feb, 2026" },
+    { id: "rm11", title: "Rotational Motion | Lecture 11 | Practice Problems 1", video: "https://rumble.com/embed/NS2_11", duration: "01:00:00", date: "24 Feb, 2026" },
+    { id: "rm12", title: "Rotational Motion | Lecture 12 | Practice Problems 2", video: "https://rumble.com/embed/NS2_12", duration: "01:00:00", date: "25 Feb, 2026" },
+    { id: "rm13", title: "Rotational Motion | Lecture 13 | Practice Problems 3", video: "https://rumble.com/embed/NS2_13", duration: "01:00:00", date: "26 Feb, 2026" },
+    { id: "rm14", title: "Rotational Motion | Lecture 14 | Revision Part 1", video: "https://rumble.com/embed/NS2_14", duration: "01:00:00", date: "27 Feb, 2026" },
+    { id: "rm15", title: "Rotational Motion | Lecture 15 | Revision Part 2", video: "https://rumble.com/embed/NS2_15", duration: "01:00:00", date: "28 Feb, 2026" },
+    { id: "rm16", title: "Rotational Motion | Lecture 16 | Advanced Concepts", video: "https://rumble.com/embed/NS2_16", duration: "01:00:00", date: "01 Mar, 2026" },
+    { id: "rm17", title: "Rotational Motion | Lecture 17 | Mixed Questions", video: "https://rumble.com/embed/NS2_17", duration: "01:00:00", date: "02 Mar, 2026" },
+    { id: "rm18", title: "Rotational Motion | Lecture 18 | Mock Test Discussion", video: "https://rumble.com/embed/NS2_18", duration: "01:00:00", date: "03 Mar, 2026" },
+    { id: "rm19", title: "Rotational Motion | Lecture 19 | Final Practice 1", video: "https://rumble.com/embed/NS2_19", duration: "01:00:00", date: "04 Mar, 2026" },
+    { id: "rm20", title: "Rotational Motion | Lecture 20 | Final Practice 2", video: "https://rumble.com/embed/NS2_20", duration: "01:00:00", date: "05 Mar, 2026" },
+    { id: "rm21", title: "Rotational Motion | Lecture 21 | Final Practice 3", video: "https://rumble.com/embed/NS2_21", duration: "01:00:00", date: "06 Mar, 2026" },
+    { id: "rm22", title: "Rotational Motion | Lecture 22 | Revision Part 3", video: "https://rumble.com/embed/NS2_22", duration: "01:00:00", date: "07 Mar, 2026" },
+    { id: "rm23", title: "Rotational Motion | Lecture 23 | Revision Part 4", video: "https://rumble.com/embed/NS2_23", duration: "01:00:00", date: "08 Mar, 2026" },
+    { id: "rm24", title: "Rotational Motion | Lecture 24 | Grand Test", video: "https://rumble.com/embed/NS2_24", duration: "01:00:00", date: "09 Mar, 2026" }
               ]
             },
             {
