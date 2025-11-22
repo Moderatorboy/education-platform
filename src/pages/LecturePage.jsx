@@ -46,7 +46,9 @@ export default function LecturePage() {
         <div className="md:col-span-2">
           <div className="aspect-video bg-black rounded overflow-hidden">
             <iframe
-              src={lecture.video + '?autoplay=1'}
+              src={lecture.video.includes('?') 
+  ? lecture.video + '&autoplay=1' 
+  : lecture.video + '?autoplay=1'}
               title={lecture.title}
               allow="autoplay; encrypted-media"
               allowFullScreen
