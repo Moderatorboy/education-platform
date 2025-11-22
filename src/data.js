@@ -143,7 +143,7 @@ export const SAMPLE = {
         {
           id: 's7',
           name: 'PHYSICAL (AKK SIR)',
-          photo: '/akk.jpg',
+          photo: '/akksir.jpg',
           chapters: [
             {
               id: 'c7',
