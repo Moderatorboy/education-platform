@@ -2,18 +2,18 @@ export const SAMPLE = {
   batches: [
     {
       id: 'b1',
-      name: 'Batch A - 2025',
+      name: 'CLASS 11TH',
       photo: '/batch1.jpg',
       subjects: [
         {
           id: 's1',
-          name: 'Mathematics',
-          photo: '/math.jpg',
+          name: 'PHYSICS (NS SIR)',
+          photo: '/NSSIR.jpg',
           chapters: [
             {
               id: 'c1',
-              name: 'Algebra',
-              photo: '/algebra.jpg',
+              name: 'CO-ORDINATE SYSTEM & VECTOR',
+              photo: '/VECTOR.jpg',
               lectures: [
                 { id: 'l1', title: 'Linear Equations', video: 'https://www.youtube.com/embed/ysz5S6PUM-U' },
                 { id: 'l2', title: 'Quadratic Equations', video: 'https://www.youtube.com/embed/dQw4w9WgXcQ' }
