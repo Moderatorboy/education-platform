@@ -20,12 +20,12 @@ export default function ChapterPage() {
   const pct = progressForChapter(chapter)
 
   const resourceSections = [
-    { title: 'Video Lectures', items: chapter.lectures },
-    { title: 'Notes', items: chapter.notes },
-    { title: 'DPP PDFs', items: chapter.dppPdfs },
-    { title: 'DPP Videos', items: chapter.dppVideos },
-    { title: 'DPP Quizzes', items: chapter.dppQuizzes },
-    { title: 'Sheets', items: chapter.sheets },
+    { title: '🎥 Video Lectures', items: chapter.lectures },
+    { title: '📘 Notes', items: chapter.notes },
+    { title: '📄 DPP PDFs', items: chapter.dppPdfs },
+    { title: '🎬 DPP Videos', items: chapter.dppVideos },
+    { title: '🧠 DPP Quizzes', items: chapter.dppQuizzes },
+    { title: '📑 Sheets', items: chapter.sheets },
   ]
 
   return (
@@ -39,27 +39,20 @@ export default function ChapterPage() {
         </h2>
       </div>
 
-      {/* Vertical Resource Sections */}
-      <div className="space-y-8">
+      {/* Vertical Resource Buttons */}
+      <div className="space-y-6">
         {resourceSections.map(section => (
           section.items?.length > 0 && (
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-2">{section.title}</h3>
-              <div className="grid grid-cols-1 gap-4">
+              <div className="grid grid-cols-1 gap-3">
                 {section.items.map((item, index) => (
                   <Link
                     key={index}
                     to={item.link || '#'}
-                    className="border rounded-lg p-3 bg-white dark:bg-slate-900 shadow"
+                    className="block w-full px-4 py-3 border rounded-lg bg-white dark:bg-slate-900 shadow hover:bg-gray-100 dark:hover:bg-slate-800"
                   >
-                    <h4 className="font-bold text-sm mb-1">{item.title}</h4>
-                    {item.thumbnail && (
-                      <img
-                        src={item.thumbnail}
-                        alt={item.title}
-                        className="w-full h-32 object-cover rounded"
-                      />
-                    )}
+                    <div className="font-medium text-base">{item.title}</div>
                   </Link>
                 ))}
               </div>
