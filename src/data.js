@@ -298,7 +298,7 @@ export const SAMPLE = {
             {
               id: 'vg_c1',
               name: 'Trigonometry',
-              photo: '/TRIGO.png',
+              photo: '/CIRCULAR.png',
               lectures: [
                 { id: 'vg_l1', title: 'Trigonometry | L-01 | Basics', video: 'https://rumble.com/embed/vg1', duration: '00:50:00', date: '30 Nov, 2025' }
               ]
