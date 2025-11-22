@@ -117,11 +117,23 @@ export const SAMPLE = {
             {
               id: 'ns_c5',
               name: 'WORK POWER ENERGY',
-              photo: '/LAWSMOTION.png',
-              lectures: [
-                { id: 'ns_l71', title: 'Laws of Motion | L-01 | Force Basics', video: 'https://rumble.com/embed/v7', duration: '01:00:00', date: '26 Nov, 2025' },
-                { id: 'ns_l81', title: 'Laws of Motion | L-02 | Newton’s Laws', video: 'https://rumble.com/embed/v8', duration: '01:00:00', date: '27 Nov, 2025' },
-                { id: 'ns_l91', title: 'Laws of Motion | L-03 | Friction', video: 'https://rumble.com/embed/v9', duration: '01:00:00', date: '28 Nov, 2025' }
+              photo: "/WORKPOWER.png",
+  lectures: [
+    { id: "wpe1", title: "Work Power Energy | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "12 Jan, 2026" },
+    { id: "wpe2", title: "Work Power Energy | Lecture 02 | Work Done by a Force", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "13 Jan, 2026" },
+    { id: "wpe3", title: "Work Power Energy | Lecture 03 | Kinetic Energy & Work-Energy Theorem", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "14 Jan, 2026" },
+    { id: "wpe4", title: "Work Power Energy | Lecture 04 | Potential Energy", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "15 Jan, 2026" },
+    { id: "wpe5", title: "Work Power Energy | Lecture 05 | Conservation of Energy", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "16 Jan, 2026" },
+    { id: "wpe6", title: "Work Power Energy | Lecture 06 | Power Basics", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "17 Jan, 2026" },
+    { id: "wpe7", title: "Work Power Energy | Lecture 07 | Practice Problems", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "18 Jan, 2026" },
+    { id: "wpe8", title: "Work Power Energy | Lecture 08 | Efficiency", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "19 Jan, 2026" },
+    { id: "wpe9", title: "Work Power Energy | Lecture 09 | Collisions & Energy", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "20 Jan, 2026" },
+    { id: "wpe10", title: "Work Power Energy | Lecture 10 | Advanced Problems", video: "https://rumble.com/embed/NS2_10", duration: "01:00:00", date: "21 Jan, 2026" },
+    { id: "wpe11", title: "Work Power Energy | Lecture 11 | Revision Part 1", video: "https://rumble.com/embed/NS2_11", duration: "01:00:00", date: "22 Jan, 2026" },
+    { id: "wpe12", title: "Work Power Energy | Lecture 12 | Revision Part 2", video: "https://rumble.com/embed/NS2_12", duration: "01:00:00", date: "23 Jan, 2026" },
+    { id: "wpe13", title: "Work Power Energy | Lecture 13 | Mixed Questions", video: "https://rumble.com/embed/NS2_13", duration: "01:00:00", date: "24 Jan, 2026" },
+    { id: "wpe14", title: "Work Power Energy | Lecture 14 | Mock Test Discussion", video: "https://rumble.com/embed/NS2_14", duration: "01:00:00", date: "25 Jan, 2026" },
+    { id: "wpe15", title: "Work Power Energy | Lecture 15 | Final Practice", video: "https://rumble.com/embed/NS2_15", duration: "01:00:00", date: "26 Jan, 2026" }
               ]
             },
             {
