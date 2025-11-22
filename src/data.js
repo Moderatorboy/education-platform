@@ -58,8 +58,8 @@ export const SAMPLE = {
         },
         {
           id: 's3',
-          name: 'MATHEMATICS (VJ SIR)',
-          photo: '/vjsir.jpg',
+          name: 'MATHEMATICS (VG SIR)',
+          photo: '/vgsir.jpg',
           chapters: [
             {
               id: 'c3',
