@@ -19,15 +19,6 @@ export default function ChapterPage() {
   if (!chapter) return <div>Chapter not found</div>
   const pct = progressForChapter(chapter)
 
-  const resourceSections = [
-    { title: '🎥 Video Lectures', items: chapter.lectures },
-    { title: '📘 Notes', items: chapter.notes },
-    { title: '📄 DPP PDFs', items: chapter.dppPdfs },
-    { title: '🎬 DPP Videos', items: chapter.dppVideos },
-    { title: '🧠 DPP Quizzes', items: chapter.dppQuizzes },
-    { title: '📑 Sheets', items: chapter.sheets },
-  ]
-
   return (
     <div>
       {/* Header */}
@@ -39,9 +30,42 @@ export default function ChapterPage() {
         </h2>
       </div>
 
-      {/* Vertical Resource Buttons */}
+      {/* 🎥 Video Lectures Grid */}
+      {chapter.lectures?.length > 0 && (
+        <div className="mb-8">
+          <h3 className="text-lg font-semibold mb-2">🎥 Video Lectures</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {chapter.lectures.map((l, index) => (
+              <Link
+                key={index}
+                to={l.link || '#'}
+                className="block border rounded-lg overflow-hidden bg-white dark:bg-slate-900 shadow"
+              >
+                <div className="aspect-video bg-gray-100 dark:bg-slate-800">
+                  <img
+                    src={chapter.photo}
+                    alt={l.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-3">
+                  <h4 className="font-bold text-sm text-center">{l.title}</h4>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 📘 Notes, 📄 DPP PDFs, 🎬 DPP Videos, 🧠 DPP Quizzes, 📑 Sheets */}
       <div className="space-y-6">
-        {resourceSections.map(section => (
+        {[
+          { title: '📘 Notes', items: chapter.notes },
+          { title: '📄 DPP PDFs', items: chapter.dppPdfs },
+          { title: '🎬 DPP Videos', items: chapter.dppVideos },
+          { title: '🧠 DPP Quizzes', items: chapter.dppQuizzes },
+          { title: '📑 Sheets', items: chapter.sheets },
+        ].map(section => (
           section.items?.length > 0 && (
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-2">{section.title}</h3>
