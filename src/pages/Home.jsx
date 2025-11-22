@@ -5,8 +5,13 @@ import { SAMPLE } from '../data'
 function BatchCard({b}){
   return (
     <Link to={`/batch/${b.id}`} className="block border rounded-lg overflow-hidden shadow hover:shadow-lg">
-      <div className="h-40 bg-gray-200 dark:bg-slate-800 flex items-center justify-center text-xl font-semibold">
-        {b.photo ? <img src={b.photo} alt={b.name} className="object-cover w-full h-full" /> : b.name}
+      <div className="bg-gray-200 dark:bg-slate-800 flex items-center justify-center text-xl font-semibold">
+        {b.photo ? <img 
+  src={b.photo} 
+  alt={b.name} 
+  className="w-full h-auto object-contain p-2"
+/>
+ : b.name}
       </div>
       <div className="p-3">
         <h3 className="font-bold">{b.name}</h3>
