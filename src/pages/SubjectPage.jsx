@@ -27,7 +27,6 @@ export default function SubjectPage(){
             <div className="py-3 text-center">
   <h3 className="text-lg font-bold text-slate-800 dark:text-white">{c.name}</h3>
 </div>
-            </div>
           </Link>
         ))}
       </div>
