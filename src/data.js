@@ -328,11 +328,20 @@ export const SAMPLE = {
           photo: '/skmsir.jpg',
           chapters: [
             {
-              id: 'skm_c1',
-              name: 'Hydrocarbons',
-              photo: '/HYDRO.png',
-              lectures: [
-                { id: 'skm_l1', title: 'Hydrocarbons | L-01 | Basics', video: 'https://rumble.com/embed/skm1', duration: '00:30:00', date: '02 Dec, 2025' }
+              id: "c13",
+  name: "BASICS OF ORGANIC CHEMISTRY",
+  photo: "/BOC.png",
+  lectures: [
+    { id: "BOC_L01", title: "BOC | Lecture 01 | Introduction", video: "https://rumble.com/embed/v6z8x3y/", thumbnail: "https://rumble.com/thumbnail/v6z8x3y.jpg", duration: "00:50:00", date: "01 May, 2026" },
+    { id: "BOC_L02", title: "BOC | Lecture 02", video: "https://rumble.com/embed/v6z8z2s/", duration: "00:50:00", date: "02 May, 2026" },
+    { id: "BOC_L03", title: "BOC | Lecture 03", video: "https://rumble.com/embed/v6z94fo/", duration: "00:50:00", date: "03 May, 2026" },
+    { id: "BOC_L04", title: "BOC | Lecture 04", video: "https://rumble.com/embed/v6z9502/", duration: "00:50:00", date: "04 May, 2026" },
+    { id: "BOC_L05", title: "BOC | Lecture 05", video: "https://rumble.com/embed/v6z94wg/", duration: "00:50:00", date: "05 May, 2026" },
+    { id: "BOC_L06", title: "BOC | Lecture 06", video: "https://rumble.com/embed/v6z7h8k/", duration: "00:50:00", date: "06 May, 2026" },
+    { id: "BOC_L07", title: "BOC | Lecture 07", video: "https://rumble.com/embed/v6z96xi/", duration: "00:50:00", date: "07 May, 2026" },
+    { id: "BOC_L08", title: "BOC | Lecture 08", video: "https://rumble.com/embed/v6z971a/", duration: "00:50:00", date: "08 May, 2026" },
+    { id: "BOC_L09", title: "BOC | Lecture 09 | Functional Group", video: "https://rumble.com/embed/v6z9740/", duration: "00:50:00", date: "09 May, 2026" },
+    { id: "BOC_L10", title: "BOC | Lecture 10 | Homologous Series & Classification of Organic Compounds", video: "https://rumble.com/embed/v6z978g/", duration: "00:50:00", date: "10 May, 2026" }
               ]
             }
           ]
