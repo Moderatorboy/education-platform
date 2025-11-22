@@ -24,10 +24,15 @@ export default function ChapterPage() {
   return (
     <div>
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <button onClick={() => navigate(-1)} className="px-3 py-2 border rounded">Back To Chapters</button>
-        <h2 className="font-bold text-center">{chapter.name}</h2>
-      </div>
+      <div className="relative mb-4">
+  <button
+    onClick={() => navigate(-1)}
+    className="absolute left-0 top-1/2 -translate-y-1/2 px-3 py-2 border rounded"
+  >
+    Back To Chapters
+  </button>
+  <h2 className="text-center text-2xl font-bold">{chapter.name}</h2>
+</div>
 
       {/* Tabs */}
       <div className="flex gap-4 mb-6 flex-wrap">
