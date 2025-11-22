@@ -160,12 +160,12 @@ export const SAMPLE = {
           photo: '/jpsir.jpg',
           chapters: [
             {
-              id: 'c2',
+              id: 'c13',
               name: 'Atomic Structure',
               photo: '/ATOMIC.png',
               lectures: [
                 {
-                  id: 'l2',
+                  id: 'l20',
                   title: 'Atomic Structure | Lecture 01 | Basics',
                   video: 'https://rumble.com/embed/v7abcd/?pub=4no3cq',
                   duration: '00:45:20',
@@ -181,12 +181,12 @@ export const SAMPLE = {
           photo: '/vgsir.jpg',
           chapters: [
             {
-              id: 'c3',
+              id: 'c29',
               name: 'Trigonometry',
               photo: '/TRIGO.png',
               lectures: [
                 {
-                  id: 'l3',
+                  id: 'l30',
                   title: 'Trigonometry | Lecture 01 | Basics',
                   video: 'https://rumble.com/embed/v7efgh/?pub=4no3cq',
                   duration: '00:50:00',
@@ -202,12 +202,12 @@ export const SAMPLE = {
           photo: '/gbsir.jpg',
           chapters: [
             {
-              id: 'c4',
+              id: 'c39',
               name: 'Cell Structure',
               photo: '/CELL.png',
               lectures: [
                 {
-                  id: 'l4',
+                  id: 'l40',
                   title: 'Cell Structure | Lecture 01 | Basics',
                   video: 'https://rumble.com/embed/v7ijkl/?pub=4no3cq',
                   duration: '00:40:00',
@@ -223,12 +223,12 @@ export const SAMPLE = {
           photo: '/skmsir.jpg',
           chapters: [
             {
-              id: 'c5',
+              id: 'c50',
               name: 'Grammar Basics',
               photo: '/GRAMMAR.png',
               lectures: [
                 {
-                  id: 'l5',
+                  id: 'l50',
                   title: 'Grammar | Lecture 01 | Nouns',
                   video: 'https://rumble.com/embed/v7mnop/?pub=4no3cq',
                   duration: '00:30:00',
@@ -244,12 +244,12 @@ export const SAMPLE = {
           photo: '/vjsir.jpg',
           chapters: [
             {
-              id: 'c6',
+              id: 'c60',
               name: 'Programming Basics',
               photo: '/CODE.png',
               lectures: [
                 {
-                  id: 'l6',
+                  id: 'l60',
                   title: 'Programming | Lecture 01 | Intro to C++',
                   video: 'https://rumble.com/embed/v7qrst/?pub=4no3cq',
                   duration: '01:00:00',
@@ -265,12 +265,12 @@ export const SAMPLE = {
           photo: '/akksir.jpg',
           chapters: [
             {
-              id: 'c7',
+              id: 'c70',
               name: 'Hindi Vyakaran',
               photo: '/HINDI.png',
               lectures: [
                 {
-                  id: 'l7',
+                  id: 'l70',
                   title: 'Hindi Grammar | Lecture 01 | Sandhi',
                   video: 'https://rumble.com/embed/v7uvwx/?pub=4no3cq',
                   duration: '00:35:00',
