@@ -217,41 +217,58 @@ export const SAMPLE = {
             {
               id: 'ns_c9',
               name: 'SHM',
-              photo: '/LAWSMOTION.png',
-              lectures: [
-                { id: 'ns_l73', title: 'Laws of Motion | L-01 | Force Basics', video: 'https://rumble.com/embed/v7', duration: '01:00:00', date: '26 Nov, 2025' },
-                { id: 'ns_l83', title: 'Laws of Motion | L-02 | Newton’s Laws', video: 'https://rumble.com/embed/v8', duration: '01:00:00', date: '27 Nov, 2025' },
-                { id: 'ns_l93', title: 'Laws of Motion | L-03 | Friction', video: 'https://rumble.com/embed/v9', duration: '01:00:00', date: '28 Nov, 2025' }
+              photo: "/SHM.png",
+  lectures: [
+    { id: "shm1", title: "SHM | Lecture 01 | Basics of Oscillation", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "25 Mar, 2026" },
+    { id: "shm2", title: "SHM | Lecture 02 | Equation of SHM", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "26 Mar, 2026" },
+    { id: "shm3", title: "SHM | Lecture 03 | Energy in SHM", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "27 Mar, 2026" },
+    { id: "shm4", title: "SHM | Lecture 04 | Phase & Amplitude", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "28 Mar, 2026" },
+    { id: "shm5", title: "SHM | Lecture 05 | Damped Oscillations", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "29 Mar, 2026" },
+    { id: "shm6", title: "SHM | Lecture 06 | Forced Oscillations & Resonance", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "30 Mar, 2026" }
               ]
             },
             {
               id: 'ns_c10',
               name: 'SURFACE TENSION',
-              photo: '/KINEMATICS.png',
-              lectures: [
-                { id: 'ns_l44', title: 'Kinematics | L-01 | Motion Basics', video: 'https://rumble.com/embed/v4', duration: '01:00:00', date: '23 Nov, 2025' },
-                { id: 'ns_l54', title: 'Kinematics | L-02 | Equations of Motion', video: 'https://rumble.com/embed/v5', duration: '01:00:00', date: '24 Nov, 2025' },
-                { id: 'ns_l64', title: 'Kinematics | L-03 | Projectile Motion', video: 'https://rumble.com/embed/v6', duration: '01:00:00', date: '25 Nov, 2025' }
+              photo: "/SURFACETENSION.png",
+  lectures: [
+    { id: "st1", title: "Surface Tension | Lecture 01 | Basics", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "31 Mar, 2026" },
+    { id: "st2", title: "Surface Tension | Lecture 02 | Molecular Theory", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "01 Apr, 2026" },
+    { id: "st3", title: "Surface Tension | Lecture 03 | Applications", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "02 Apr, 2026" }
               ]
             },
             {
               id: 'ns_c11',
               name: 'HEAT AND THERMODYNAMICS',
-              photo: '/LAWSMOTION.png',
-              lectures: [
-                { id: 'ns_l74', title: 'Laws of Motion | L-01 | Force Basics', video: 'https://rumble.com/embed/v7', duration: '01:00:00', date: '26 Nov, 2025' },
-                { id: 'ns_l84', title: 'Laws of Motion | L-02 | Newton’s Laws', video: 'https://rumble.com/embed/v8', duration: '01:00:00', date: '27 Nov, 2025' },
-                { id: 'ns_l94', title: 'Laws of Motion | L-03 | Friction', video: 'https://rumble.com/embed/v9', duration: '01:00:00', date: '28 Nov, 2025' }
+              photo: "/HEATTHERMO.png",
+  lectures: [
+    { id: "ht1", title: "Heat & Thermodynamics | Lecture 01 | Basics of Heat", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "11 Apr, 2026" },
+    { id: "ht2", title: "Heat & Thermodynamics | Lecture 02 | Zeroth Law of Thermodynamics", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "12 Apr, 2026" },
+    { id: "ht3", title: "Heat & Thermodynamics | Lecture 03 | First Law of Thermodynamics", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "13 Apr, 2026" },
+    { id: "ht4", title: "Heat & Thermodynamics | Lecture 04 | Second Law of Thermodynamics", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "14 Apr, 2026" },
+    { id: "ht5", title: "Heat & Thermodynamics | Lecture 05 | Entropy", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "15 Apr, 2026" },
+    { id: "ht6", title: "Heat & Thermodynamics | Lecture 06 | Heat Engines", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "16 Apr, 2026" },
+    { id: "ht7", title: "Heat & Thermodynamics | Lecture 07 | Carnot Cycle", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "17 Apr, 2026" },
+    { id: "ht8", title: "Heat & Thermodynamics | Lecture 08 | Refrigerators", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "18 Apr, 2026" },
+    { id: "ht9", title: "Heat & Thermodynamics | Lecture 09 | Practice Problems 1", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "19 Apr, 2026" },
+    { id: "ht10", title: "Heat & Thermodynamics | Lecture 10 | Practice Problems 2", video: "https://rumble.com/embed/NS2_10", duration: "01:00:00", date: "20 Apr, 2026" },
+    { id: "ht11", title: "Heat & Thermodynamics | Lecture 11 | Final Revision", video: "https://rumble.com/embed/NS2_11", duration: "01:00:00", date: "21 Apr, 2026" }
               ]
             },
             {
               id: 'ns_c12',
               name: 'WAVE',
-              photo: '/LAWSMOTION.png',
-              lectures: [
-                { id: 'ns_l75', title: 'Laws of Motion | L-01 | Force Basics', video: 'https://rumble.com/embed/v7', duration: '01:00:00', date: '26 Nov, 2025' },
-                { id: 'ns_l85', title: 'Laws of Motion | L-02 | Newton’s Laws', video: 'https://rumble.com/embed/v8', duration: '01:00:00', date: '27 Nov, 2025' },
-                { id: 'ns_l95', title: 'Laws of Motion | L-03 | Friction', video: 'https://rumble.com/embed/v9', duration: '01:00:00', date: '28 Nov, 2025' }
+              photo: "/WAVE.png",
+  lectures: [
+    { id: "w1", title: "Wave | Lecture 01 | Basics of Waves", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "22 Apr, 2026" },
+    { id: "w2", title: "Wave | Lecture 02 | Types of Waves", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "23 Apr, 2026" },
+    { id: "w3", title: "Wave | Lecture 03 | Wave Equation", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "24 Apr, 2026" },
+    { id: "w4", title: "Wave | Lecture 04 | Superposition Principle", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "25 Apr, 2026" },
+    { id: "w5", title: "Wave | Lecture 05 | Interference of Waves", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "26 Apr, 2026" },
+    { id: "w6", title: "Wave | Lecture 06 | Stationary Waves", video: "https://rumble.com/embed/NS2_6", duration: "01:00:00", date: "27 Apr, 2026" },
+    { id: "w7", title: "Wave | Lecture 07 | Beats", video: "https://rumble.com/embed/NS2_7", duration: "01:00:00", date: "28 Apr, 2026" },
+    { id: "w8", title: "Wave | Lecture 08 | Doppler Effect", video: "https://rumble.com/embed/NS2_8", duration: "01:00:00", date: "29 Apr, 2026" },
+    { id: "w9", title: "Wave | Lecture 09 | Practice Problems", video: "https://rumble.com/embed/NS2_9", duration: "01:00:00", date: "30 Apr, 2026" }
               ]
             }
           ]
