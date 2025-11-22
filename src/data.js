@@ -150,8 +150,6 @@ export const SAMPLE = {
       title: "Laws of Motion Quiz",
       questions: [
         { q: "State Newton's Second Law.", options: ["F=ma", "F=mv", "F=mg"], ans: 0 }
-          ]
-        }
       ]
     }
   ]
