@@ -332,7 +332,7 @@ export const SAMPLE = {
   name: "BASICS OF ORGANIC CHEMISTRY",
   photo: "/BOC.jpg",
   lectures: [
-    { id: "BOC_L01", title: "BOC | Lecture 01 | Introduction", video: "https://rumble.com/embed/v6z8x3y/", thumbnail: "https://rumble.com/thumbnail/v6z8x3y.jpg", duration: "00:50:00", date: "01 May, 2026" },
+    { id: "BOC_L01", title: "BOC | Lecture 01 | Introduction", video: "https://rumble.com/embed/v6z8x3y/", duration: "00:50:00", date: "01 May, 2026" },
     { id: "BOC_L02", title: "BOC | Lecture 02", video: "https://rumble.com/embed/v6z8z2s/", duration: "00:50:00", date: "02 May, 2026" },
     { id: "BOC_L03", title: "BOC | Lecture 03", video: "https://rumble.com/embed/v6z94fo/", duration: "00:50:00", date: "03 May, 2026" },
     { id: "BOC_L04", title: "BOC | Lecture 04", video: "https://rumble.com/embed/v6z9502/", duration: "00:50:00", date: "04 May, 2026" },
