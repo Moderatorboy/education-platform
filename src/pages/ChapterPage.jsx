@@ -24,14 +24,19 @@ export default function ChapterPage() {
   return (
     <div>
       {/* Header */}
-      <div className="relative mb-4">
+      <div className="relative mb-6 h-32 rounded-lg overflow-hidden bg-gradient-to-r from-pink-500 to-yellow-400 text-white shadow-lg">
+  {/* Centered Chapter Name */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h2 className="text-3xl font-bold drop-shadow">{chapter.name}</h2>
+  </div>
+
+  {/* Back Button */}
   <button
     onClick={() => navigate(-1)}
-    className="absolute left-0 top-1/2 -translate-y-1/2 px-3 py-2 border rounded"
+    className="absolute left-4 top-4 px-3 py-2 bg-white text-black rounded shadow"
   >
-    Back To Chapters
+    Back
   </button>
-  <h2 className="text-center text-2xl font-bold">{chapter.name}</h2>
 </div>
 
       {/* Tabs */}
