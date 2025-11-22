@@ -42,11 +42,66 @@ export const SAMPLE = {
           id: 'q1',
           title: 'Algebra Quiz',
           questions: [{ q: '2+2?', options: ['3', '4', '5'], ans: 1 }]
-                }
-              ]
-            }
+        }
+      ]
+    },
+
+    // 👇 NEW CHAPTER ADDED
+    {
+      id: "c2",
+  name: "KINEMATICS",
+  photo: "/KINEMATICS.png",
+  lectures: [
+    { id: "k1", title: "Kinematics | L-01 | Distance, Displacement, Velocity", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "09 Dec, 2025" },
+    { id: "k2", title: "Kinematics | L-02 | Instantaneous & Average Velocity", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "10 Dec, 2025" },
+    { id: "k3", title: "Kinematics | L-03 | Instantaneous & Average Acceleration", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "11 Dec, 2025" },
+    { id: "k4", title: "Kinematics | L-04 | Questions", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "12 Dec, 2025" },
+    { id: "k5", title: "Kinematics | L-05 | Questions", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "13 Dec, 2025" },
+    { id: "k6", title: "Kinematics | L-06 | Motion Under Gravity", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "14 Dec, 2025" },
+    { id: "k7", title: "Kinematics | L-07 | Shells Law In Kinematics", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "15 Dec, 2025" },
+    { id: "k8", title: "Kinematics | L-08 | Graph In Kinematics", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "16 Dec, 2025" },
+    { id: "k9", title: "Kinematics | L-09 | Acceleration Graph", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "17 Dec, 2025" },
+    { id: "k10", title: "Kinematics | L-10 | Velocity Graph", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "18 Dec, 2025" },
+    { id: "k11", title: "Kinematics | L-11 | Motion In 2D & 3D", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "19 Dec, 2025" },
+    { id: "k12", title: "Kinematics | L-12 | Projectile Motion (Equation Of Trajectory)", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "20 Dec, 2025" },
+    { id: "k13", title: "Kinematics | L-13 | Projectile From Height", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "21 Dec, 2025" },
+    { id: "k14", title: "Kinematics | L-14 | Questions", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "22 Dec, 2025" },
+    { id: "k15", title: "Kinematics | L-15 | Radius Of Curvature In Projectile Motion", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "23 Dec, 2025" },
+    { id: "k16", title: "Kinematics | L-16 | Relative Motion", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "24 Dec, 2025" },
+    { id: "k17", title: "Kinematics | L-17 | Angular Velocity (Basics)", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "25 Dec, 2025" },
+    { id: "k18", title: "Kinematics | L-18 | River & Boatman Concept", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "26 Dec, 2025" },
+    { id: "k19", title: "Kinematics | L-19 | Variable River Flow", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "27 Dec, 2025" },
+    { id: "k20", title: "Kinematics | L-20 | Parabolic River Flow, Path Of Projectile", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "28 Dec, 2025" },
+    { id: "k21", title: "Kinematics | L-21 | Chasing Concept", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "29 Dec, 2025" },
+    { id: "k22", title: "Kinematics | L-22 | Lift Problem", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "30 Dec, 2025" },
+    { id: "k23", title: "Kinematics | L-23 | Questions", video: "https://rumble.com/embed/NS2_3", duration: "01:00:00", date: "31 Dec, 2025" },
+    { id: "k24", title: "Kinematics | L-24 | Questions", video: "https://rumble.com/embed/NS2_4", duration: "01:00:00", date: "01 Jan, 2026" },
+    { id: "k25", title: "Kinematics | L-25 | Projectile On Moving Frame", video: "https://rumble.com/embed/NS2_5", duration: "01:00:00", date: "02 Jan, 2026" }
+  ],
+  notes: [
+    { id: "n2", title: "Kinematics Notes", file: "https://example.com/notes_lawsmotion.pdf" }
+  ],
+  dpp: [
+    { id: "d2", title: "Kinematics DPP", file: "https://example.com/dpp_lawsmotion.pdf" }
+  ],
+  sheets: [
+    { id: "s2", title: "Kinematics Sheet", link: "https://example.com/sheet_lawsmotion.pdf" }
+  ],
+  dppVideos: [
+    { id: "dv2", title: "Kinematics DPP Video", link: "https://odysee.com/$/embed/abc123" }
+  ],
+  quizzes: [
+    {
+      id: "q2",
+      title: "Kinematics Quiz",
+      questions: [
+        { q: "Define displacement.", options: ["Scalar", "Vector", "Constant"], ans: 1 }
           ]
-        },
+        }
+      ]
+    }
+  ]
+},
         {
           id: 's2',
           name: 'PHYSICS (JP SIR)',
