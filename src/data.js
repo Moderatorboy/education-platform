@@ -355,7 +355,7 @@ export const SAMPLE = {
             {
               id: 'vj_c1',
               name: 'Periodic Table',
-              photo: '/PERIODIC.png',
+              photo: '/CIRCULAR.png',
               lectures: [
                 { id: 'vj_l1', title: 'Periodic Table | L-01 | Basics', video: 'https://rumble.com/embed/vj1', duration: '01:00:00', date: '03 Dec, 2025' }
               ]
