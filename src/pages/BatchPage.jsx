@@ -20,8 +20,8 @@ export default function BatchPage(){
               {s.photo ? <img src={s.photo} alt={s.name} className="w-full h-auto object-contain"/> : s.name}
             </div>
             <div className="p-3 bg-white dark:bg-slate-900">
-              <h3 className="font-bold">{s.name}</h3>
-            </div>
+  <h3 className="font-bold text-center">{s.name}</h3>
+</div>
           </Link>
         ))}
       </div>
