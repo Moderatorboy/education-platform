@@ -50,7 +50,7 @@ export const SAMPLE = {
     {
       id: "c2",
   name: "KINEMATICS",
-  photo: "/Komedi (12).png",
+  photo: "/KINEMATICS.png",
   lectures: [
     { id: "k1", title: "Kinematics | L-01 | Distance, Displacement, Velocity", video: "https://rumble.com/embed/NS2_1", duration: "01:00:00", date: "09 Dec, 2025" },
     { id: "k2", title: "Kinematics | L-02 | Instantaneous & Average Velocity", video: "https://rumble.com/embed/NS2_2", duration: "01:00:00", date: "10 Dec, 2025" },
