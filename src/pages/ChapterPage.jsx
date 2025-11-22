@@ -15,9 +15,10 @@ export default function ChapterVideosPage() {
   const tabs = [
     { key: 'videos', label: 'Videos' },
     { key: 'Notes', label: 'Notes' },
-    { key: 'dppNotes', label: 'DPP Quiz' },
+    { key: 'dppQuiz', label: 'DPP Quiz' },
     { key: 'dppNotes', label: 'DPP PDF' },
     { key: 'dppVideos', label: 'DPP Videos' },
+    { key: 'Sheets', label: 'Sheets' },
   ]
 
   return (
