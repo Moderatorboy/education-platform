@@ -80,7 +80,7 @@ export const SAMPLE = {
         {
           id: 's4',
           name: 'MATHEMATICS (GB SIR)',
-          photo: '/bgsir.jpg',
+          photo: '/gbsir.jpg',
           chapters: [
             {
               id: 'c4',
