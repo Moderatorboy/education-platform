@@ -15,8 +15,8 @@ export const SAMPLE = {
               name: 'CO-ORDINATE SYSTEM & VECTOR',
               photo: '/VECTOR.png',
               lectures: [
-                { id: 'l1', title: 'Linear Equations', video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq' },
-                { id: 'l2', title: 'Quadratic Equations', video: 'https://www.youtube.com/embed/dQw4w9WgXcQ' }
+                { id: 'l1', title: 'Coordinate Systems And Vectors | Leacture 01 | Orientation', video: 'https://rumble.com/embed/v6zuqey/?pub=4no3cq' },
+                { id: 'l2', title: 'Coordinate Systems And Vectors | Leacture 02 | Vector (Basics)', video: 'https://rumble.com/embed/v6zur44/?pub=4no3cq' }
               ],
               notes: [{id:'n1', title:'Algebra Notes', file:'/notes/algebra.pdf'}],
               dpp: [{id:'d1', title:'Algebra DPP', file:'/dpp/algebra.pdf'}],
