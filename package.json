@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/vite"
+    "postinstall": "npm rebuild"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.1",
